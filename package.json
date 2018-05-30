@@ -1,11 +1,12 @@
 {
   "name": "cubic-weight",
   "version": "1.0.0",
-  "description": "The code is used for kogan code challenge",
+  "description": "The code is used for Kogan code challenge",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
+    "test:cover": "jest --coverage"
   },
   "repository": {
     "type": "git",

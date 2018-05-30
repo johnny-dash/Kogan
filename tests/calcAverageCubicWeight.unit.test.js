@@ -1,7 +1,7 @@
 const calcAverageCubicWeight = require("../calcAverageCubicWeight");
 
-const mockedApiCall = () => {
-  const response = {
+const mockedApiCall = url => {
+  return Promise.resolve({
     objects: [
       {
         category: "Gadgets",
@@ -54,21 +54,22 @@ const mockedApiCall = () => {
         }
       }
     ],
-    next: "null"
-  };
-  return new Promise((resolve, reject) => {
-    resolve(response);
+    next: null
   });
 };
 
 describe("default test", () => {
   test("Test case", async () => {
-    expect(
-      await calcAverageCubicWeight(
-        "test/api/a",
-        "Air Conditioners",
-        mockedApiCall
-      )
-    ).toBe(0);
+    try {
+      expect(
+        await calcAverageCubicWeight(
+          "http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1",
+          "Air Conditioners",
+          mockedApiCall
+        )
+      ).toBe(2.238365518);
+    } catch (err) {
+      console.log(err);
+    }
   });
 });

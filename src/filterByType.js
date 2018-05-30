@@ -1,4 +1,4 @@
-// this is filter function to find out all air conditions
+// this is filter function to get the right products
 const filterByType = (response, type) => {
   let store = [];
   response.forEach(good => {

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1527690468141" clover="3.2.0">
+  <project timestamp="1527690468141" name="All files">
+    <metrics statements="48" coveredstatements="42" conditionals="10" coveredconditionals="6" methods="7" coveredmethods="6" elements="65" coveredelements="54" complexity="0" loc="48" ncloc="48" packages="2" files="4" classes="4">
+      <package name="cubic-weight">
+        <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="calcAverageCubicWeight.js" path="/Users/mzd/Desktop/Jobs/Kogan/cubic-weight/calcAverageCubicWeight.js">
+          <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="cubic-weight.src">
+        <metrics statements="39" coveredstatements="34" conditionals="10" coveredconditionals="6" methods="6" coveredmethods="5"/>
+        <file name="calcCubicWeight.js" path="/Users/mzd/Desktop/Jobs/Kogan/cubic-weight/src/calcCubicWeight.js">
+          <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+        </file>
+        <file name="filterByType.js" path="/Users/mzd/Desktop/Jobs/Kogan/cubic-weight/src/filterByType.js">
+          <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+        <file name="syncCalculation.js" path="/Users/mzd/Desktop/Jobs/Kogan/cubic-weight/src/syncCalculation.js">
+          <metrics statements="16" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

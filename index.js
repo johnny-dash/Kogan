@@ -1,18 +1,13 @@
 const fetchData = require("./src/dataFetch");
 const calcAverageCubicWeight = require("./calcAverageCubicWeight");
-const defaultSetting = {
-  endpoint:
-    "http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1",
-  type: "Air Conditioners"
-};
+const defaultSetting = require("./defaultSetting");
 
-const config = process.argv[2] ? process.argv[2] : defaultSetting;
-const endpoint = config.endpoint ? config.endpoint : defaultSetting.endpoint;
-const type = config.type ? config.type : defaultSetting.type;
+const endpoint = defaultSetting.endpoint;
+const type = defaultSetting.type;
 
 calcAverageCubicWeight(endpoint, type, fetchData)
   .then(result => {
-    console.log(result);
+    console.log("The average cubic weight is: " + result);
   })
   .catch(error => {
     console.error(error);

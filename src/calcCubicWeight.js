@@ -4,7 +4,7 @@ const calcCubicWeight = async goods => {
     let sum = 0;
     let count = 0;
     if (goods) {
-      goods.forEach(good => {
+      for (let good of goods) {
         // basic validation
         if (!good.weight) reject("Error: Good don't have weight");
         if (!good.size) reject("Error: Good don't have size");
@@ -19,7 +19,7 @@ const calcCubicWeight = async goods => {
         // calculate
         sum += weight * cubicSize;
         count++;
-      });
+      }
     } else {
       reject("Error: No goods detail in response");
     }
