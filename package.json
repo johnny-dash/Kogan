@@ -1,0 +1,23 @@
+{
+  "name": "cubic-weight",
+  "version": "1.0.0",
+  "description": "The code is used for kogan code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny-dash/Kogan.git"
+  },
+  "author": "Johnny Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnny-dash/Kogan/issues"
+  },
+  "homepage": "https://github.com/johnny-dash/Kogan#readme",
+  "dependencies": {
+    "jest": "^23.0.1"
+  }
+}
