@@ -4,6 +4,12 @@
 @Email:  maodi101@gmail.com
 -->
 
+# Introduction
+
+This npm package could be published and the main function will be 'calcAverageCubicWeight'. This function takes three parameters, the endpoint url, the calculated average cubic weight type and the injected Dependency the API call. The function will return the value of average cubic weight.
+
+To run the application, please run the main file(index.js) which will invoke this 'calcAverageCubicWeight' function, the instruction has been described in the 'Instruction & Usage'.
+
 # Installation & Usage
 
 1.  Make sure Node.Js are installed

@@ -7,7 +7,7 @@ const type = defaultSetting.type;
 
 calcAverageCubicWeight(endpoint, type, fetchData)
   .then(result => {
-    console.log("The average cubic weight is: " + result);
+    console.log("The average cubic weight for " + type + " is: " + result);
   })
   .catch(error => {
     console.error(error);
