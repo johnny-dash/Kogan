@@ -2,7 +2,7 @@
   "name": "cubic-weight",
   "version": "1.0.0",
   "description": "The code is used for Kogan code challenge",
-  "main": "index.js",
+  "main": "calcAverageCubicWeight.js",
   "scripts": {
     "start": "node index.js",
     "test": "jest",
