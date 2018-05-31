@@ -1,5 +1,5 @@
-const fetchData = require("./src/dataFetch");
-const calcAverageCubicWeight = require("./calcAverageCubicWeight");
+const fetchData = require("./src/driver/fetchData");
+const calcAverageCubicWeight = require("./src/core/calcAverageCubicWeight");
 const defaultSetting = require("./defaultSetting");
 
 const endpoint = defaultSetting.endpoint;

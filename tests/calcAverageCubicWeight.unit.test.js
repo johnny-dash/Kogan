@@ -1,4 +1,4 @@
-const calcAverageCubicWeight = require("../calcAverageCubicWeight");
+const calcAverageCubicWeight = require("../src/core/calcAverageCubicWeight");
 
 const mockedApiCall = url => {
   return Promise.resolve({
@@ -58,18 +58,24 @@ const mockedApiCall = url => {
   });
 };
 
-describe("default test", () => {
-  test("Test case", async () => {
-    try {
-      expect(
-        await calcAverageCubicWeight(
-          "http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1",
-          "Air Conditioners",
-          mockedApiCall
-        )
-      ).toBe(2.238365518);
-    } catch (err) {
-      console.log(err);
-    }
+describe("Correct test", () => {
+  test("Calculate the mocked data", async () => {
+    expect(
+      await calcAverageCubicWeight(
+        "http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1",
+        "Air Conditioners",
+        mockedApiCall
+      )
+    ).toBe(2.238365518);
+  });
+
+  test("Calculate the mocked data", async () => {
+    expect(
+      await calcAverageCubicWeight(
+        "http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1",
+        "Air Conditioners",
+        mockedApiCall
+      )
+    ).toBe(2.238365518);
   });
 });

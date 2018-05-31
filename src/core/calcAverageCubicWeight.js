@@ -1,4 +1,4 @@
-const syncCalculation = require("./src/syncCalculation");
+const calculation = require("./calculation");
 
 // inject function to make it testable
 const calcAverageCubicWeight = async (endpoint, type, requestFn) => {
@@ -7,7 +7,7 @@ const calcAverageCubicWeight = async (endpoint, type, requestFn) => {
     const hostName = endpoint.split("/api/")[0];
     const initialResource = endpoint.split(hostName)[1];
 
-    let finalResult = await syncCalculation(
+    let finalResult = await calculation(
       hostName,
       initialResource,
       type,
